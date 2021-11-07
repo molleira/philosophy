@@ -1,3 +1,7 @@
+body {
+  font-family: 'Cutive Mono', monospace;
+}
+
 .container {
   max-width: 600px;
   margin: auto;
