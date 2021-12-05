@@ -1,8 +1,12 @@
 body {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Mark Pro', monospace;
+}
+
+a {
+  display: block;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
 }
