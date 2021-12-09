@@ -1,12 +1,62 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: 'Mark Pro', monospace;
 }
 
-a {
-  display: block;
+.container {
+  max-width: 720px;
+  margin: auto;
 }
 
-.container {
-  max-width: 800px;
-  margin: auto;
+.container-link {
+  margin: 4em;
+}
+
+h2, h3 {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-weight: 400;
+  margin: 1em;
+}
+
+a, .par, .title {
+  line-height: 1.6;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: gold;
+}
+
+.title {
+  margin: 2em;
+}
+
+.zitat {
+  padding: 4em 8em 2em;
+}
+
+.par {
+  margin: 2em 0;
 }
